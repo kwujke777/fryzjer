@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Fryzjerski</title>
+    <style>
+        /* General reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #8B5F42;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .content {
+            width: 65%;
+        }
+
+        .content img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .welcome-text {
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .contact {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .sidebar {
+            background-color: #d4c2b8;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+            text-align: center;
+        }
+
+        .sidebar h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .sidebar table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .sidebar table th,
+        .sidebar table td {
+            border: 1px solid #8B5F42;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .sidebar table th {
+            background-color: #8B5F42;
+            color: white;
+        }
+
+        .sidebar table td {
+            background-color: #f4f4f4;
+        }
+
+        .sidebar .photo img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #8B5F42;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SALON FRYZJERSKI</h1>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <img src="haircut.jpg" alt="Haircut Image">
+            <p class="welcome-text">
+                Witaj! Miło nam, że odwiedziłeś nasz salon. Sprawdź promocje!
+            </p>
+            <p class="contact">
+                Kontakt: 444 555 666
+            </p>
+        </div>
+
+        <div class="sidebar">
+            <h2>Ceny strzyżenia</h2>
+            <table>
+                <tr>
+                    <th>Długość włosów</th>
+                    <th>Cena</th>
+                </tr>
+                <tr>
+                    <td>Krótkie</td>
+                    <td>25</td>
+                </tr>
+                <tr style="background-color: #c28b66;">
+                    <td>Średnie</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Półdługie</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Długie</td>
+                    <td>50</td>
+                </tr>
+            </table>
+            <div class="photo">
+                <img src="stylist.jpg" alt="Stylist Photo">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Autor: 000000000000</p>
+    </footer>
+</body>
+</html>
